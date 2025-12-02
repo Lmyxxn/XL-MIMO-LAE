@@ -2,7 +2,7 @@
 
 **Official repository for the paper:**
 > **Digital Twin-Based Channel Generation Toolchain and Foundation Model for Low-Altitude XL-MIMO**
-
+Paper will be public at arxiv soon.
 ---
 
 ## 📂 Repository Structure & Methodology
