@@ -31,10 +31,11 @@ This repository implements the three-stage generation pipeline described in our 
 
 ### Prerequisites
 * Python == 3.10.18
-* **NVIDIA Sionna** (TensorFlow based)
+* **NVIDIA Sionna**
 * sionna-rt 1.1.0
 * Mitsuba 3 (Renderer)
-* `osmnx`, `geopandas` (For map processing)
+* `osmnx`, `geopandas`
+* 
 
 ### Workflow
 
@@ -44,10 +45,10 @@ Open `LAE_Urban_OSM_to_Sionna_scene.ipynb`. Configure the target ROI coordinates
 **2. Run Batch Generation**
 Once the scene file is ready, configure the simulation parameters (number of UAVs, time slots, antenna array size) in `LAE_data_batch_generation.py` and run:
 ```bash
-python LAE_data_batch_generation.py
+python LAE_data_batch_generation.py```
 
 **3. Merge data**
 run:
 ```bash
 python Split_and_merge_single_scene_channels.py
-python merge_all_scene_channels.py
+python merge_all_scene_channels.py```
