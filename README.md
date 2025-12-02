@@ -33,8 +33,9 @@ This repository implements the three-stage generation pipeline described in our 
 * Python == 3.10.18
 * **NVIDIA Sionna**
 * sionna-rt 1.1.0
-* Mitsuba 3 (Renderer)
+* Mitsuba 3
 * `osmnx`, `geopandas`
+* SUMO
   
 
 ### Workflow
